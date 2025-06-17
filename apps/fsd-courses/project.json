@@ -21,7 +21,7 @@
             "input": "apps/fsd-courses/public"
           }
         ],
-        "styles": ["apps/fsd-courses/src/styles.scss"]
+        "styles": ["apps/fsd-courses/src/app/styles/styles.scss"]
       },
       "configurations": {
         "production": {
