@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { Raging } from './raging';
+import { Rating } from './rating';
 
-describe('Raging', () => {
-  let component: Raging;
-  let fixture: ComponentFixture<Raging>;
+describe('Rating', () => {
+  let component: Rating;
+  let fixture: ComponentFixture<Rating>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [Raging],
+      imports: [Rating],
     }).compileComponents();
 
-    fixture = TestBed.createComponent(Raging);
+    fixture = TestBed.createComponent(Rating);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
