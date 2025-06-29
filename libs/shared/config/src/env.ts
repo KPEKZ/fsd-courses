@@ -5,7 +5,7 @@ export interface EnvConfig {
 }
 
 export const environment: EnvConfig = {
-  API_URL: 'API_URL=https://fsd-courses.com'
+  API_URL: 'https://fsd-courses.com'
 };
 
 export const APP_CONFIG = new InjectionToken<EnvConfig>(
