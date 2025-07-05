@@ -16,9 +16,9 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@shared/api": ["libs/shared/api/src/index.ts"],
-      "@shared/config": ["libs/shared/config/src/index.ts"],
-      "@shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@fsd-courses/ai": ["libs/entities/ai/src/index.ts"],
+      "@fsd-courses/course": ["libs/entities/course/src/index.ts"],
+      "@fsd-courses/user": ["libs/entities/user/src/index.ts"],
       "@pages/club": ["libs/pages/club/src/index.ts"],
       "@pages/community": ["libs/pages/community/src/index.ts"],
       "@pages/courses": ["libs/pages/courses/src/index.ts"],
@@ -26,7 +26,10 @@
       "@pages/home": ["libs/pages/home/src/index.ts"],
       "@pages/profile": ["libs/pages/profile/src/index.ts"],
       "@pages/referral": ["libs/pages/referral/src/index.ts"],
-      "@pages/skill": ["libs/pages/skill/src/index.ts"]
+      "@pages/skill": ["libs/pages/skill/src/index.ts"],
+      "@shared/api": ["libs/shared/api/src/index.ts"],
+      "@shared/config": ["libs/shared/config/src/index.ts"],
+      "@shared/ui": ["libs/shared/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
