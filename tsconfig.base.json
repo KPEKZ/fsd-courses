@@ -31,7 +31,10 @@
       "@pages/skill": ["libs/pages/skill/src/index.ts"],
       "@shared/api": ["libs/shared/api/src/index.ts"],
       "@shared/config": ["libs/shared/config/src/index.ts"],
-      "@shared/ui": ["libs/shared/ui/src/index.ts"]
+      "@shared/ui": ["libs/shared/ui/src/index.ts"],
+      "@widgets/ai": ["libs/widgets/ai/src/index.ts"],
+      "@widgets/course": ["libs/widgets/course/src/index.ts"],
+      "@widgets/user": ["libs/widgets/user/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
