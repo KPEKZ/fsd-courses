@@ -1,5 +1,5 @@
 {
-  "name": "course",
+  "name": "entities-course",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/entities/course/src",
   "prefix": "lib",
