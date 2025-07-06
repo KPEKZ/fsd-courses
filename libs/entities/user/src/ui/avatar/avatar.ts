@@ -2,10 +2,10 @@ import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'lib-user-avatar',
+  selector: 'lib-avatar',
   imports: [CommonModule],
-  templateUrl: './user-avatar.html',
-  styleUrl: './user-avatar.scss',
+  templateUrl: './avatar.html',
+  styleUrl: './avatar.scss',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class UserAvatar {}
+export class Avatar {}
